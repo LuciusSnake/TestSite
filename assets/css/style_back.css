@@ -1,0 +1,37 @@
+:root {
+    --border-color: black;
+    --main-bg-color: rgb(191, 124, 253);
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #FFFFFF 0%, #f7acac 69.79%, #f89e9e 79.17%, #f88a8a 85.94%, #fc7676 91.15%, #fa5757 100%);
+    border: 1px solid var(--border-color);
+    padding: 8px;
+    height: 50px;
+}
+
+input, textarea {
+    border: 1px solid var(--button-border-color);
+    border-radius: 4px;
+    color: var(--button-text-color);
+    background: var(--input-background);
+    outline: none;
+    padding: 4px 8px;
+}
+
+form div {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    width: 40%;
+    margin: 0 12px;
+    border: 1px solid var(--border-color);
+    padding: 12px;
+    border-radius: 8px;
+}

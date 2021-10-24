@@ -1,0 +1,20 @@
+:root {
+    --border-color: black;
+    --main-bg-color: rgb(191, 124, 253);
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #FFFFFF 0%, #b4f7ac 69.79%, #a2fa98 79.17%, #87f77a 85.94%, #76fa67 91.15%, #61f150 100%);
+    border: 1px solid var(--border-color);
+    padding: 8px;
+    height: 50px;
+}
+
+main {
+    padding: 20px;
+    
+    background-color: var(--main-bg-color);
+}
